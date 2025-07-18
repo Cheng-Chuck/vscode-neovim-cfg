@@ -1,0 +1,66 @@
+// Place your key bindings in this file to override the defaults
+[
+  {
+    "key": "escape",
+    "command": "workbench.action.focusLastEditorGroup",
+    "when": "!editorTextFocus && neovim.init && neovim.mode != 'insert' && editorLangId not in 'neovim.editorLangIdExclusions'"
+  },
+  {
+    "key": "escape",
+    "command": "workbench.action.focusLastEditorGroup",
+    "when": "neovim.init && inOutput"
+  },
+  {
+    "key": "escape",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "workbench.action.closePanel",
+        "workbench.action.focusLastEditorGroup"
+      ]
+    },
+    "when": "panelFocus && !inputFocus && !inputBoxFocus"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "search.focus.nextInputBox",
+    "when": "searchViewletFocus"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "search.focus.previousInputBox",
+    "when": "searchViewletFocus"
+  },
+  {
+    "key": "tab",
+    "command": "search.action.focusSearchList",
+    "when": "searchViewletFocus && inputFocus"
+  },
+  {
+    "key": "tab",
+    "command": "runCommands",
+    "args": {
+      "commands": [
+        "search.focus.previousInputBox",
+        "search.focus.previousInputBox",
+        "search.focus.previousInputBox",
+        "search.focus.previousInputBox",
+      ]
+    },
+    "when": "searchViewletFocus && !inputFocus"
+  },
+  {
+    "key": "ctrl+o",
+    "command": "workbench.action.search.toggleQueryDetails",
+    "when": "searchViewletFocus"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "-workbench.action.files.newUntitledFile",
+  },
+  {
+    "key": "f5",
+    "command": "code-runner.run",
+    "when": "editorTextFocus && !findInputFocussed && !replaceInputFocussed && editorLangId == 'python' && neovim.init && neovim.mode != 'insert'"
+  }
+]

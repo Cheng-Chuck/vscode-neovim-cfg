@@ -1,0 +1,373 @@
+{
+  "window.zoomLevel": 0,
+  "workbench.settings.applyToAllProfiles": [
+  
+  ],
+
+  // DocxDocGen configuration
+  "doxdocgen.c.firstLine": "/*!",
+  "doxdocgen.c.triggerSequence": "/**",
+  "doxdocgen.c.commentPrefix": " * ",
+  "doxdocgen.c.lastLine": " */",
+  "doxdocgen.generic.dateFormat": "ddd, MMM DD, YYYY hh:mm:ss A",
+  "doxdocgen.generic.dateTemplate": "@date{indent:12} {date}",
+  "doxdocgen.generic.briefTemplate": "@brief {text}",
+  "doxdocgen.generic.authorName": "Sensor Software and Solutions Team",
+  "doxdocgen.generic.authorTag": "@author{indent:12}{author}",
+  "doxdocgen.file.fileTemplate": "@file{indent:12}{name}",
+  "doxdocgen.file.versionTag": "@version{indent:12}v0.0.1",
+
+  "doxdocgen.file.copyrightTag": [
+    "Copyright (C) Bosch Sensortec GmbH. All Rights Reserved. Confidential.",
+    "",
+    "Disclaimer",
+    "",
+    "Common:",
+    "Bosch Sensortec products are developed for the consumer goods industry. They may only be used",
+    "within the parameters of the respective valid product data sheet.  Bosch Sensortec products are",
+    "provided with the express understanding that there is no warranty of fitness for a particular purpose.",
+    "They are not fit for use in life-sustaining, safety or security sensitive systems or any system or device",
+    "that may lead to bodily harm or property damage if the system or device malfunctions. In addition,",
+    "Bosch Sensortec products are not fit for use in products which interact with motor vehicle systems.",
+    "The resale and/or use of products are at the purchasers own risk and his own responsibility. The",
+    "examination of fitness for the intended use is the sole responsibility of the Purchaser.",
+    "",
+    "The purchaser shall indemnify Bosch Sensortec from all third party claims, including any claims for",
+    "incidental, or consequential damages, arising from any product use not covered by the parameters of",
+    "the respective valid product data sheet or not approved by Bosch Sensortec and reimburse Bosch",
+    "Sensortec for all costs in connection with such claims.",
+    "",
+    "The purchaser must monitor the market for the purchased products, particularly with regard to",
+    "product safety and inform Bosch Sensortec without delay of all security relevant incidents.",
+    "",
+    "Engineering Samples are marked with an asterisk (*) or (e). Samples may vary from the valid",
+    "technical specifications of the product series. They are therefore not intended or fit for resale to third",
+    "parties or for use in end products. Their sole purpose is internal client testing. The testing of an",
+    "engineering sample may in no way replace the testing of a product series. Bosch Sensortec",
+    "assumes no liability for the use of engineering samples. By accepting the engineering samples, the",
+    "Purchaser agrees to indemnify Bosch Sensortec from all claims arising from the use of engineering",
+    "samples.",
+    "",
+    "Special:",
+    "This software module (hereinafter called \"Software\") and any information on application-sheets",
+    "(hereinafter called \"Information\") is provided free of charge for the sole purpose to support your",
+    "application work. The Software and Information is subject to the following terms and conditions:",
+    "",
+    "The Software is specifically designed for the exclusive use for Bosch Sensortec products by",
+    "personnel who have special experience and training. Do not use this Software if you do not have the",
+    "proper experience or training.",
+    "",
+    "This Software package is provided `` as is `` and without any expressed or implied warranties,",
+    "including without limitation, the implied warranties of merchantability and fitness for a particular",
+    "purpose.",
+    "",
+    "Bosch Sensortec and their representatives and agents deny any liability for the functional impairment",
+    "of this Software in terms of fitness, performance and safety. Bosch Sensortec and their",
+    "representatives and agents shall not be liable for any direct or indirect damages or injury, except as",
+    "otherwise stipulated in mandatory applicable law.",
+    "",
+    "The Information provided is believed to be accurate and reliable. Bosch Sensortec assumes no",
+    "responsibility for the consequences of use of such Information nor for any infringement of patents or",
+    "other rights of third parties which may result from its use. No license is granted by implication or",
+    "otherwise under any patent or patent rights of Bosch. Specifications mentioned in the Information are",
+    "subject to change without notice.",
+    "",
+    "It is not allowed to deliver the source code of the Software to any third party without permission of",
+    "Bosch Sensortec."
+  ],
+
+  "doxdocgen.file.fileOrder": [
+    "copyright",
+    "empty",
+    "file",
+    "empty",
+    "brief",
+    "empty"
+  ],
+
+  "doxdocgen.generic.paramTemplate": "@param[in] {indent:13}{param}: ",
+  "doxdocgen.generic.returnTemplate": "@return ",
+
+  "doxdocgen.generic.order": ["brief", "empty", "param", "empty", "return"],
+  "cmake.options.statusBarVisibility": "visible",
+  "terminal.integrated.commandsToSkipShell": ["matlab.interrupt"],
+  "redhat.telemetry.enabled": false,
+  "coverage-gutters.coverageFileNames": [
+    "lcov.info",
+    "cov.xml",
+    "coverage.xml",
+    "jacoco.xml",
+    "coverage.cobertura.xml"
+  ],
+
+  // MATLAB configuration
+  "MATLAB.installPath": "C:\\Program Files\\MATLAB\\R2022b",
+  "MATLAB.telemetry": false,
+  "matlab-interactive-terminal.pythonPath": "C:\\Users\\EHH1SGH\\.conda\\envs\\matlab\\python.exe",
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "terminal.integrated.defaultProfile.linux": "tcsh (2)",
+  "yaml.schemas": {
+    "file:///c%3A/Users/EHH1SGH/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+
+  // C/C++ configuration
+  "C_Cpp.autocompleteAddParentheses": true,
+  "C_Cpp.default.customConfigurationVariables": {},
+  "C_Cpp.default.cStandard": "c99",
+  "C_Cpp.default.intelliSenseMode": "gcc-arm",
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "C_Cpp.inlayHints.parameterNames.enabled": true,
+  "makefile.configureOnOpen": true,
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+
+  // Zen mode
+  "zenMode.centerLayout": false,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.showTabs": "multiple",
+  "zenMode.hideStatusBar": false,
+
+  // Github copilot configuration
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vscode-neovim.compositeKeys": {
+    "jj": {
+      "command": "vscode-neovim.escape",
+    },
+  },
+
+  // vscode-neovim configuration
+  "vscode-neovim.ctrlKeysForInsertMode": [
+    "a",
+    "c",
+    "d",
+    "h",
+    "m",
+    "o",
+    "r",
+    "t",
+    "u",
+    "w",
+    "j"
+  ],
+
+  // Aura Dracula Spirit (Soft) theme
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.hidesExplorerArrows": true,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.sideBar.location": "right",
+  "workbench.statusBar.visible": true,
+  "workbench.layoutControl.enabled": true,
+  "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
+  //   "workbench.colorCustomizations": {
+  //     "editorSuggestWidget.selectedBakground": "#231739",
+  //     "sideBar.background": "#191521",
+  //     "list.activeSelectionBackground": "#231739",
+  //     "list.inactiveSelectionBackground": "#231739",
+  //     "list.focusBackground": "#231739",
+  //     "list.hoverBackground": "#231739",
+  //     "terminalCursor.foreground": "#C45DFF"
+  //   },
+
+  // Editor configuration
+  "editor.comments.insertSpace": true,
+  "editor.quickSuggestionsDelay": 0,
+  "editor.minimap.enabled": false,
+  "editor.guides.indentation": true,
+  "editor.renderWhitespace": "none",
+  "editor.renderLineHighlight": "all",
+  "editor.matchBrackets": "always",
+  "editor.lightbulb.enabled": "off",
+  "editor.hover.enabled": false,
+  "editor.showFoldingControls": "never",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.overviewRulerBorder": false,
+  "editor.cursorBlinking": "solid",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.indentSize": "tabSize",
+  "editor.detectIndentation": true,
+  "editor.fontFamily": "'DankMono Nerd Font', 'Hack Nerd Font Mono', 'consolas', 'monospace'",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 1.5,
+  "editor.formatOnPaste": false,
+
+  "breadcrumbs.enabled": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "git.decorations.enabled": false,
+  "scm.diffDecorations": "none",
+  "files.insertFinalNewline": true,
+  "extensions.ignoreRecommendations": true,
+  "files.autoSave": "afterDelay",
+  "terminal.integrated.fontFamily": "DankMono Nerd Font, Hack Nerd Font Mono, JetBrainsMono Nerd Font",
+  "terminal.integrated.tabs.enabled": true,
+  "terminal.integrated.fontSize": 14,
+  // "terminal.integrated.env.osx": {
+  //   "FIG_NEW_SESSION": "1"
+  // },
+  "window.titleBarStyle": "native",
+
+  // APC CustomerUI++ configuration
+  // "apc.electron": {
+  //   "titleBarStyle": "hiddenInset"
+  // },
+  "apc.font.family": "DankMono Nerd Font, Hack Nerd Font Mono",
+  // "apc.listRow": {
+  //   "lists": ["explorer-folders-view", "quick-input-list", "results"],
+  //   "height": 30
+  // },
+  // "apc.stylesheet": {
+  //   ".title-actions": "display: none !important",
+  //   ".quick-input-widget.show-file-icons, .editor-widget.find-widget": "box-shadow: none !important",
+  //   ".filematch .monaco-icon-label:before, .custom-list-row.results .monaco-list-row .monaco-icon-label:before": "background-position: 0 bottom !important",
+  //   ".filematch .monaco-count-badge": "padding: 5px 6px 0 6px !important",
+  //   ".sidebar .title-label": "padding: 0 !important",
+  //   ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "outline: none !important",
+  //   ".sidebar": "border: none !important",
+  //   ".monaco-editor .cursors-layer .cursor": "background-image: linear-gradient(135deg, #67D0FF 10%, #C45DFF 100%)",
+  //   ".quick-input-list-row div": "display: flex !important; align-items: center !important",
+  //   ".panel .composite.title": "visibility: hidden !important",
+  //   ".title.show-file-icons .label-container .monaco-icon-label.file-icon": "padding-bottom: 6px !important",
+  //   ".sidebar .title-label h2": "line-height: 2.8 !important",
+  //   ".monaco-editor .scroll-decoration": "display: none !important",
+  //   ".monaco-scrollable-element > .shadow.top": "display: none !important",
+  //   ".monaco-split-view2 > .monaco-scrollable-element > .split-view-container": "background: #191521 !important"
+  // },
+
+  // Clangd configuration
+
+  "clangd.path": "c:\\Users\\EHH1SGH\\AppData\\Roaming\\Code\\User\\globalStorage\\llvm-vs-code-extensions.vscode-clangd\\install\\18.1.3\\clangd_18.1.3\\bin\\clangd.exe",
+
+  // Clang-format configuration
+  "clang-format.language.c.enable": true,
+  "clang-format.language.c.fallbackStyle": "",
+  "clang-format.language.cpp.enable": true,
+  "clang-format.language.c.style": "",
+  // "clang-format.style": "{BasedOnStyle: Google, IndentWidth: 4, UseTab: Never, BraceWrapping: {AfterControlStatement: true, AfterFunction: true}}",
+  "clang-format.style": "file",
+  "clang-format.executable": "clang-format",
+  "clang-format.fallbackStyle": "Google",
+  "clang-format.assumeFilename": "${workspaceFolder}\\.vscode\\.clang-format",
+
+  // Git diff configuration
+  "diffEditor.ignoreTrimWhitespace": true,
+
+  // CMAKE configuration
+  "cmake.showOptionsMovedNotification": false,
+  "[c]": {
+    // "editor.defaultFormatter": "xaver.clang-format"
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "llvm-vs-code-extensions.vscode-clangd"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "chat.editing.alwaysSaveWithGeneratedChanges": true,
+  "animations.CursorAnimation": true,
+  "animations.Enabled": true,
+  "animations.Install-Method": "Custom CSS and JS",
+  "vscode_custom_css.imports": ["file://${userHome}/.vscode/cursor.js"],
+  "markdownConverter.ConversionType": ["HTML"],
+  
+  // MATLAB formatter
+  "matlab-formatter.addSpaces": "exclude_pow",
+  "matlab-formatter.indentMode": "all_functions",
+  "matlab-formatter.indentwidth": 4,
+  "matlab-formatter.matrixIndent": "aligned",
+  "matlab-formatter.separateBlocks": true,
+  "[matlab]": {
+    "editor.defaultFormatter": "AffenWiesel.matlab-formatter"
+  },
+  "xml.symbols.maxItemsComputed": 50000,
+  
+  // code runner
+  "code-runner.executorMap": {
+    "javascript": "node",
+    "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+    "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "zig": "zig run",
+    "cpp": "cd $dir && g++ $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "php": "php",
+    "python": "python -u",
+    "perl": "perl",
+    "perl6": "perl6",
+    "ruby": "ruby",
+    "go": "go run",
+    "lua": "lua",
+    "groovy": "groovy $fullFileName",
+    "powershell": "powershell -ExecutionPolicy ByPass -File",
+    "bat": "cmd /c",
+    "shellscript": "bash",
+    "fsharp": "fsi",
+    "csharp": "scriptcs",
+    "vbscript": "cscript //Nologo",
+    "typescript": "ts-node",
+    "coffeescript": "coffee",
+    "scala": "scala",
+    "swift": "swift",
+    "julia": "julia",
+    "crystal": "crystal",
+    "ocaml": "ocaml",
+    "r": "Rscript",
+    "applescript": "osascript",
+    "clojure": "lein exec",
+    "haxe": "haxe --cwd $dirWithoutTrailingSlash --run $fileNameWithoutExt",
+    "rust": "cd $dir && rustc $fileName && $dir$fileNameWithoutExt",
+    "racket": "racket",
+    "scheme": "csi -script",
+    "ahk": "autohotkey",
+    "autoit": "autoit3",
+    "dart": "dart",
+    "pascal": "cd $dir && fpc $fileName && $dir$fileNameWithoutExt",
+    "d": "cd $dir && dmd $fileName && $dir$fileNameWithoutExt",
+    "haskell": "runghc",
+    "nim": "nim compile --verbosity:0 --hints:off --run",
+    "lisp": "sbcl --script",
+    "kit": "kitc --run",
+    "v": "v run",
+    "sass": "sass --style expanded",
+    "scss": "scss --style expanded",
+    "less": "cd $dir && lessc $fileName $fileNameWithoutExt.css",
+    "FortranFreeForm": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran-modern": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "sml": "cd $dir && sml $fileName",
+    "mojo": "mojo run",
+    "erlang": "escript",
+    "spwn": "spwn build",
+    "pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
+    "gleam": "gleam run -m $fileNameWithoutExt"
+  },
+  "MATLAB.startDebuggerAutomatically": true,
+  "workbench.colorTheme": "GitHub Dark Default",
+  "python.createEnvironment.trigger": "off",
+  "remote.SSH.remotePlatform": {
+    "rt-xbrh8sw1.rt.de.bosch.com": "linux"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmPasteNative": false,
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  }
+}
